@@ -1,0 +1,28 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "shared/*": ["../shared/*"]
+    },
+    "esModuleInterop": true,
+    "jsx": "react-native",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "allowJs": true
+  },
+  "include": [
+    "src",
+    "../shared",
+    "App.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

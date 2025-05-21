@@ -1,0 +1,33 @@
+{
+  "name": "amplify-arc",
+  "version": "1.0.0",
+  "description": "Premium cross-platform web and mobile application for Amplify ARC agency",
+  "main": "index.js",
+  "scripts": {
+    "start:web": "cd web && npm start",
+    "start:mobile": "cd mobile && npm start",
+    "start": "node start-dev.js",
+    "install:all": "npm install && cd web && npm install && cd ../mobile && npm install",
+    "build:web": "cd web && npm run build",
+    "test:web": "cd web && npm test",
+    "test:mobile": "cd mobile && npm test"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "cross-platform",
+    "agency",
+    "premium"
+  ],
+  "author": "Amplify ARC",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "path": "^0.12.7",
+    "fs": "0.0.1-security"
+  }
+}
