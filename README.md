@@ -48,39 +48,6 @@ A modern, responsive web and mobile application for Amplify ARC agency, built wi
 - **Native Features**: Platform-specific optimizations
 - **Offline Support**: Basic offline functionality
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-- React Native development environment setup
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/amplify-arc.git
-cd amplify-arc
-```
-
-2. Install dependencies:
-```bash
-npm install
-cd web && npm install
-cd ../mobile && npm install
-```
-
-3. Start the development servers:
-```bash
-# Start both web and mobile
-npm start
-
-# Start web only
-npm run start:web
-
-# Start mobile only
-npm run start:mobile
-```
 
 ## 📦 Project Structure
 
@@ -139,20 +106,12 @@ amplify-arc/
    - Implement offline-first architecture
    - Add native features (camera, location)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
+## 👥 Author
 
-- **Your Name** - *Initial work* - [Your GitHub](https://github.com/yourusername)
+- **Tafara** - *Initial work* - [My GitHub](https://github.com/Tafaraa)
 
-## 🙏 Acknowledgments
 
-- Thanks to all contributors who have helped shape this project
-- Inspired by modern design trends and best practices
-- Built with the amazing React and React Native communities
